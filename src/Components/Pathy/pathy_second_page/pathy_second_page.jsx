@@ -9,11 +9,14 @@ function PathySecondPage(props) {
   return (
     <div className="psp-1">
       <div className="psp-2">
-        {props.searchpagedata.pathyList.map((innerData) => (
-          <DisplayCard  Data={innerData} />
+        
+        {props.searchpagedata.pathyList.map((innerData,index)=> (
+          // console.log(index)
+          <DisplayCard  Data={{innerData,index}} />
         ))}
       </div>
-    </div>
+      </div>
+    
   );
 }
 

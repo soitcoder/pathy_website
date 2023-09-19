@@ -1,7 +1,7 @@
 
 .pc-1 {
   appearance: none;
-  background-color: transparent;
+  background-color: #fff;
   border-radius: 15px;
   box-sizing: border-box;
   color:  #053B3F;
@@ -11,6 +11,7 @@
   font-weight: 600;
   line-height: normal;
   margin: 0;
+  border-color:#fff;
   min-height: 60px;
   min-width: 0;
   outline: none;
