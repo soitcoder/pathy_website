@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.diseases-bottom-container{
+    width: 85.27vw;
+    height: auto;
+    // background: rgb(244, 244, 246);
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.disease-bottom-buttons{
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .disease-therapy-button{
+        color: white;
+            background-color:#053B3F;
+            outline: none;
+            text-decoration: none;
+    }
+    
+    
+    button{
+        width:100vw;
+        height: 85px;
+        background-color: #E9FFFF;
+        color: #053B3F;
+        font-size: 20px;
+        font-weight: bold;
+        // &:hover{
+        //     color: white;
+        //     background-color:#053B3F;
+        //     outline: none;
+        //     text-decoration: none;
+        // }
+        
+    }
+}
+
+//card css
+.disease-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    // margin: auto;
+    justify-content: center;
+
+    font-family: 'Noto Sans', sans-serif;
+    color: #053B3F;
+
+
+    .disease-card{
+        flex: 0 0 calc(33.33% - 20px);
+        max-width: 257px;
+        height: 252px;
+        // height: auto;
+        background-image: linear-gradient(violet,white);
+        // background-color: yellow;
+        // padding: 5px 10px;
+        transition: .3s;
+        border-radius: 12px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        // margin-bottom: 10px;
+        // stroke: 2px solid rgba($color: #053B3F, $alpha: 0);
+        // border: 2px solid transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
+       .disease-card-img{
+        height: 252px;
+        width: 257px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 101px;
+            height: auto;
+            position: relative;
+            bottom: 30px;
+
+        }
+       }
+
+       h4{
+        font-size: 20px;
+        margin-bottom: 5px;
+        position: relative;
+        bottom: 65px;
+        
+    }
+        p{
+            font-size: 12px;
+            position: relative;
+            bottom: 45px;
+            margin: 0px 10px;
+            min-height: 50px;
+            max-height: 70px;
+            // height: auto;
+            overflow:scroll;
+            text-align: center;
+        }
+        
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .disease-bottom-buttons{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+    .disease-cards{
+        // margin: auto;
+        // justify-content: space-evenly;
+        margin: auto;
+        flex: 0 0 calc(33.33% - 20px);
+        // max-width: calc(33.33% - 20px);
+    }
+ }
+ 
+ @media screen and (max-width: 570px){
+    //
+ }
+
+ 

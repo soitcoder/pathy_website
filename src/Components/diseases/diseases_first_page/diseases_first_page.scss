@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.extraspace{
+    height: 90px;
+    width: 100%;
+}
+.diseases-top-main{
+    color: #053B3F;
+}
+.diseases-top-container{
+    position: relative;
+    width: 96.2vw;
+    height: 63.8vh;
+    // overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    // background: #b9b9b9;
+    background: #ececec;
+    
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+    .disease-left{
+        width: 444px;
+        // width: auto;
+        height: 493px;
+        // height: auto;
+        margin: auto;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .disease-right{
+        text-align: left;
+        margin: auto 60px;
+
+        p{
+            overflow: scroll;
+            max-height: 150px;
+            max-width: 720px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            // margin: 20px auto;
+        }
+        h1{
+            font-weight: bold;
+            margin: 20px auto;
+        }
+        h2{
+            font-weight:500;
+            margin: 15px auto;
+        }
+
+
+
+    }
+}
+
+
+
+
+.diseases-top-end{
+.g-line{
+    width: 100%;
+    height: 9px;
+    // margin-top: 20px;
+    background-color: #053B3F;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    .g-round{
+        display: flex;
+        margin: auto;position: relative;
+        background-color: #053B3F;
+        padding: 0px;
+        // margin-top: 20px;
+        border-radius: 80px;
+        height: 71px;
+        width: 401px;
+        font-size: 40px;
+        justify-content: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        position: relative;
+        bottom: 32px;
+        padding: 5px;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 850px){
+   .diseases-top-container{
+    .disease-left{
+        display: none;
+    }
+    .disease-right{
+        p{
+            max-width: 90vw;
+        }
+    }
+   }
+}
+
+@media screen and (max-width: 570px){
+    // 
+}

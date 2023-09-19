@@ -1,0 +1,97 @@
+.searchbar_container {
+    /* border: 1px solid black; */
+    /* display: flex;
+    /* flex-direction: column; */
+    /* border: 1px solid black; */
+    /* justify-content: space-around; */
+    width:100%;
+    position: relative;
+}
+
+.dataResult {
+    position: absolute;
+    border-radius: 0px 0px 5px 5px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: hidden;
+    z-index: 1000;
+}
+
+.dataResult a:hover {
+    background-color: lightgrey;
+}
+
+.dataResult a{
+    text-decoration: none;
+}
+.dataResult::-webkit-scrollbar {
+    display: none;
+}
+
+.dataResult .dataItem {
+    width: 100%;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.dataItem p {
+    margin-left: 10px;
+}
+
+
+
+
+.searchbar_outer {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding: .3rem .3rem .3rem .3rem;
+    border-radius: .2rem;
+    width:100%;
+}
+
+.searchbar_outer_input {
+    /* border: 1px solid black; */
+    width: 70%;
+    border-style: none;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.searchbar_outer_input:focus {
+    outline: none;
+}
+
+.searchbar_outer_button1,
+.searchbar_outer_button2 {
+    border-radius: 0rem .2rem .2rem 0rem;
+    border-style: none;
+    width: 30%;
+    background-color: #053B3F;
+    color: #FFFFFF;
+    font-weight: 700;
+    height: 3rem;
+    font-family: 'Sombra';
+    text-align: center;
+}
+
+.searchbar_outer_button2 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .searchbar_outer_button1 {
+        display: none;
+    }
+    .searchbar_outer_button2{
+        display: block;
+    }
+}

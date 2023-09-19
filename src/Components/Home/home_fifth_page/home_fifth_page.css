@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.hfifthp {
+    background: #D4FFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hfifthp_upper {
+    padding-top: 2rem;
+    text-align: center;
+    width: 80vw;
+}
+
+.hfifthp_upper p {
+    font-family: 'Sombra';
+    font-style: normal;
+    font-weight: 200;
+    font-size: large;
+    line-height: 1.3rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.hfifthp_upper h3 {
+    font-family: 'Sombra';
+    font-style: normal;
+    font-weight: 900;
+    font-size: xx-large;
+    line-height: 38px;
+    margin-bottom: 1rem;
+}
+
+.hfifthp_lower img{
+    margin-top: -3rem;
+    width:85vw;
+    /* margin:auto; */
+}
+.hfifthp_search{
+    position: relative;
+    margin:auto;
+    width:47vw;
+}
+
+@media screen and (max-width: 886px) {
+    
+    .hfifthp {
+        background: #D4FFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hfifthp_upper {
+        padding-top: 2rem;
+        text-align: center;
+        width: 80vw;
+    }
+    
+    .hfifthp_upper p {
+        font-family: 'Sombra';
+        font-style: normal;
+        font-weight: 200;
+        font-size: medium;
+        line-height: 1.3rem;
+        color: #000000;
+        margin-bottom: 2rem;
+    }
+    
+    .hfifthp_upper h3 {
+        font-family: 'Sombra';
+        font-style: normal;
+        font-weight: 900;
+        font-size: xx-large;
+        line-height: 38px;
+        margin-bottom: 1rem;
+    }
+    
+    .hfifthp_lower img{
+        margin-top: -3rem;
+        width:100vw;
+        /* margin:auto; */
+    }
+    .hfifthp_search{
+        position: relative;
+        margin:auto;
+        width:47vw;
+    }
+}
+
+  @media screen and (max-width: 558px){
+    .hfifthp {
+        background: #D4FFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hfifthp_upper {
+        padding-top: 2rem;
+        text-align: center;
+        width: 80vw;
+    }
+    
+    .hfifthp_upper p {
+        font-family: 'Sombra';
+        font-style: normal;
+        font-weight: 200;
+        font-size: medium;
+        line-height: 1.3rem;
+        color: #000000;
+        margin-bottom: 2rem;
+    }
+    
+    .hfifthp_upper h3 {
+        font-family: 'Sombra';
+        font-style: normal;
+        font-weight: 900;
+        font-size: xx-large;
+        line-height: 38px;
+        margin-bottom: 1rem;
+    }
+    
+    .hfifthp_lower img{
+        margin-top: -1rem;
+        width:140vw;
+        /* margin:auto; */
+    }
+    .hfifthp_search{
+        position: relative;
+        margin:auto;
+        width:80vw;
+    }
+ } 
+
+
+
+ 
